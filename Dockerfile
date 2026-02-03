@@ -1,6 +1,6 @@
 # Use Node.js Alpine base image
 FROM node:alpine
-RUN apt-get update && apt-get install -y libatomic1 && rm -rf /var/lib/apt/lists/*
+# RUN apt-get update && apt-get install -y libatomic1 && rm -rf /var/lib/apt/lists/*
 
 # Create and set the working directory inside the container
 WORKDIR /app
